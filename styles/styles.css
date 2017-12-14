@@ -33,6 +33,10 @@ a {
   margin: 5px 0;
 }
 
+.adLink:hover {
+  color: lightgray;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -85,8 +89,9 @@ nav {
 .madewellTag {
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 13px;
+  margin-bottom: 30px;
 }
 
 .catLine {
@@ -98,4 +103,90 @@ nav {
   justify-content: space-between;
   text-transform: uppercase;
   white-space: nowrap;
+  text-decoration: none;
 }
+
+.clothing:hover {
+  color: gray;
+}
+
+hr {
+  margin: 0;
+}
+
+/*MAIN*/
+
+.mainPhoto {
+  height: 600px;
+  width: 100%;
+  background-image: url(../assets/holiday.jpg);
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.mainTextWrap {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.leftTag {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.middleTagWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middleTagText {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 150px;
+  width: 50%;
+}
+
+.middleTag2 {
+  text-align: right;
+}
+
+.rightTag {
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.landingButton {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+  padding: 13px 25px 10px;
+  color: white;
+  width: 242px;
+  height: 36px;
+}
+
+.promoCodeButton {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+
