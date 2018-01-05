@@ -117,24 +117,26 @@ hr {
 /*MAIN*/
 
 .mainPhotoWrap {
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin: auto;
+  width: 40%;
+/*  align-items: center;*/
 }
 
 .mainPhoto {
   height: 600px;
   width: 100%;
   background-image: url(../assets/holiday.jpg);
-  text-align: center;
+/*  text-align: center;*/
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
+/*  margin-left: auto;
+  margin-right: auto;*/
+/*  justify-content: center;*/
   margin-top: 0;
   position: absolute;
   z-index: 1;
-  align-self: center;
+/*  align-self: center;*/
 }
 
 .mainTextWrap {
@@ -142,6 +144,12 @@ hr {
   z-index: 2;
   width: 100%;
   margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftTagWrap {
+  width: 50%;
 }
 
 .leftTag {
@@ -151,20 +159,42 @@ hr {
   font-size: 30px;
 }
 
-.middleTagWrap {
+.leftSpacer {
+  height: 100px;
+}
+
+.rightTagWrap {
+  width: 50%;
+}
+
+/*.middleTagWrap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+}*/
 
 .middleTagText {
   font-family: 'Bungee Shade', cursive;
   font-size: 150px;
-  width: 50%;
+}
+
+.middleTag1 {
+  text-align: left;
 }
 
 .middleTag2 {
-  text-align: right;
+  text-align: left;
+}
+
+.rightTagWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 60px;
+}
+
+.rightSpacer {
+  height: 160px;
 }
 
 .rightTag {
