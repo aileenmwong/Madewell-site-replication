@@ -26,6 +26,16 @@ a {
   margin: 10px;
 }
 
+.sectionWrapper3 {
+  position: relative;
+  border: 1px solid red;
+  height: 360px;
+  margin: 10px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+
 .topAd {
   background-color: black;
   text-align: center;
@@ -268,11 +278,16 @@ hr {
 .threeImage {
   border: 1px solid black;
   width: 32%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+/*  justify-content: center;*/
+  align-items: center;
 }
 
 .imageOne {
   background-image: url(../assets/2018-jan1-wk1-hp-img2.jpeg);
-  height: 420px;
+  height: 100%;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -280,7 +295,7 @@ hr {
 
 .imageTwo {
   background-image: url(../assets/2018-jan1-wk1-pub1.jpeg);
-  height: 420px;
+  height: 100%;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -304,4 +319,44 @@ hr {
 
 .imageOneTagLink {
   font-weight: 700;
+}
+
+/*IN SHOPPING CARTS*/
+
+.shop1 {
+  background-image: url(../assets/shoppingcart1.jpeg);
+}
+
+.shop2 {
+  background-image: url(../assets/shoppingcart2.jpeg);
+}
+
+.shop3 {
+  background-image: url(../assets/shoppingcart3.jpeg);
+}
+
+.shop4 {
+  background-image: url(../assets/shoppingcart4.jpeg);
+}
+
+.shoppingCartItem {
+  height: 300px;
+  width: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.shoppingCartWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.shoppingCartTitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  background-color: whitesmoke;
 }
