@@ -574,3 +574,36 @@ hr {
   text-align: center;
   margin-left: 38%;
 }
+
+/*FOOTER */
+
+.linkMapWrap {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 40px;
+}
+
+.links {
+  margin: 0 15px;
+}
+
+.linkMap {
+  font-family: Arial;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+.linkMapHead {
+  font-family: Arial;
+  color: black;
+}
+
+.linkMapItem {
+  color: gray;
+}
+
+.companyWrap {
+  margin-top: 10px;
+}
