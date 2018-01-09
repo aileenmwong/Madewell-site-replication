@@ -49,6 +49,13 @@ a {
   margin: 20px;
 }
 
+.sectionWrapper6 {
+  position: relative;
+  background-color: black;
+  height: 350px;
+  margin: 20px;
+}
+
 .topAd {
   background-color: black;
   text-align: center;
@@ -471,7 +478,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px 100px;
+  padding: 10px 5%;
 }
 
 .moreItemImg {
@@ -512,4 +519,58 @@ hr {
   font-size: 16px;
   text-align: center;
   font-weight: 100;
+}
+
+/*INSIDER*/
+
+.insider {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.insiderLogoWrap {
+  margin: 30px;
+}
+
+.insiderLogo1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+.insiderLogo2 {
+  text-transform: uppercase;
+  margin: 6px;
+  letter-spacing: 5px;
+}
+
+.insiderPerksWrap {
+  margin: 30px;
+}
+
+.insiderPerks {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.insiderJoin {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 20px;
+}
+
+.insiderSignButton {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  margin-left: 38%;
 }
