@@ -31,10 +31,16 @@ a {
   border: 1px solid red;
   height: 360px;
   margin: 10px;
-  padding: 10px;
-  background-color: whitesmoke;
+/*  padding: 10px;
+  background-color: whitesmoke;*/
 }
 
+.sectionWrapper4 {
+  position: relative;
+  border: 1px solid red;
+  height: 500px;
+  margin: 10px;
+}
 
 .topAd {
   background-color: black;
@@ -359,4 +365,81 @@ hr {
   padding: 20px;
   text-align: center;
   background-color: whitesmoke;
+}
+
+/*JEANS*/
+
+.jeansImg {
+  background-image: url(../assets/jeans.jpeg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  position: absolute;
+}
+
+.jeansTextWrapper {
+  margin-top: 70px;
+/*  border: 1px solid green;*/
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.jeansTextHead {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+.jeansTextTitle {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+
+.jeansTextTitleWrap {
+  margin: 20px;
+}
+
+.jeansTextTag {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+}
+
+.jeansTextTagWrap {
+  margin: 20px;
+}
+
+.jeansButton {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+  padding-top: 20px;
+  color: white;
+  width: 200px;
+  height: 36px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.jeansTextHash {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  margin: 30px;
 }
