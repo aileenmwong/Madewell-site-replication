@@ -132,6 +132,24 @@ nav {
   justify-content: flex-end;
 }
 
+.flag {
+  background-image: url(../assets/flag.png);
+  height: 10px;
+  width: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flagLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dummyLink {
+  text-decoration: none;
+}
+
 .logoWrap {
   display: flex;
   flex-direction: column;
@@ -599,7 +617,8 @@ hr {
   padding: 16px;
   width: 200px;
   text-align: center;
-  margin-left: 38%;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 /*FOOTER */
@@ -607,6 +626,8 @@ hr {
 .mapSocialWrap {
   display: flex;
   flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .linkMapWrap {
