@@ -19,6 +19,10 @@ a {
   margin: 20px;
 }
 
+.sectionWrapper1:hover {
+  opacity: .7;
+}
+
 .sectionWrapper2 {
   position: relative;
 /*  border: 1px solid red;*/
@@ -40,6 +44,10 @@ a {
 /*  border: 1px solid red;*/
   height: 500px;
   margin: 20px;
+}
+
+.sectionWrapper4:hover {
+  opacity: .7;
 }
 
 .sectionWrapper5 {
@@ -310,6 +318,10 @@ hr {
   align-items: center;
 }
 
+.threeImage:hover {
+  opacity: .7;
+}
+
 .imageOne {
   background-image: url(../assets/2018-jan1-wk1-hp-img2.jpeg);
   height: 400px;
@@ -371,6 +383,10 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
+}
+
+.shoppingCartItem:hover {
+  opacity: .7;
 }
 
 .shoppingCartWrapper {
@@ -485,6 +501,10 @@ hr {
   flex-direction: row;
   justify-content: space-around;
   padding: 10px 5%;
+}
+
+.moreItem:hover {
+  opacity: .7;
 }
 
 .moreItemImg {
