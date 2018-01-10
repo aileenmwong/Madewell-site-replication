@@ -100,9 +100,9 @@ nav {
   font-size: 10px;
   display: flex;
   flex-direction: row;
+  width: 50%;
   list-style-type: none;
   letter-spacing: 2px;
-  width: 50%;
 }
 
 .leftNav {
@@ -149,6 +149,11 @@ nav {
 
 .catLine {
   color: lightgray;
+}
+
+.catClothing {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .clothing {
@@ -292,11 +297,11 @@ hr {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .threeImage {
-  border: 1px solid black;
+/*  border: 1px solid black;*/
   width: 32%;
   height: auto;
   display: flex;
@@ -307,25 +312,25 @@ hr {
 
 .imageOne {
   background-image: url(../assets/2018-jan1-wk1-hp-img2.jpeg);
-  height: 100%;
-  width: 100%;
-  background-size: contain;
+  height: 400px;
+  width: 350px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imageTwo {
   background-image: url(../assets/2018-jan1-wk1-pub1.jpeg);
-  height: 100%;
-  width: 100%;
-  background-size: contain;
+  height: 400px;
+  width: 350px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imageThree {
   background-image: url(../assets/2018-jan1-wk1-hp-img4.jpeg);
-  height: 420px;
-  width: 100%;
-  background-size: contain;
+  height: 400px;
+  width: 350px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -339,6 +344,7 @@ hr {
 
 .imageOneTagLink {
   font-weight: 700;
+  text-decoration: none;
 }
 
 /*IN SHOPPING CARTS*/
@@ -512,6 +518,7 @@ hr {
   text-align: center;
   font-weight: 700;
   margin: 5px;
+  text-decoration: none;
 }
 
 .moreItemText {
@@ -577,6 +584,11 @@ hr {
 
 /*FOOTER */
 
+.mapSocialWrap {
+  display: flex;
+  flex-direction: row;
+}
+
 .linkMapWrap {
   display: flex;
   flex-direction: row;
@@ -606,4 +618,72 @@ hr {
 
 .companyWrap {
   margin-top: 10px;
+}
+
+.scoop {
+  margin-top: 20px;
+  font-family: Arial;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.signupWrap {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.emailInput {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 9px;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+}
+
+.socialButtonWrap {
+  font-size: 22px;
+}
+
+.fa {
+  margin: 3px;
+}
+
+.blogLink {
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.safety {
+  color: gray;
+  font-family: Arial;
+  font-size: 9px;
+  text-transform: uppercase;
+  margin: 20px 55px;
+  letter-spacing: 1px;
+}
+
+.navFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftNavFooter {
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: gray;
+}
+
+.rightNavFooter {
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: gray;
+  display: flex;
+  justify-content: flex-end;
 }
