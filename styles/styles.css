@@ -605,6 +605,7 @@ hr {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 16px;
+  text-decoration: none;
 }
 
 .linkMapHead {
@@ -614,6 +615,7 @@ hr {
 
 .linkMapItem {
   color: gray;
+  text-decoration: none;
 }
 
 .companyWrap {
