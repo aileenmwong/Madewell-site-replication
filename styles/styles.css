@@ -649,6 +649,10 @@ hr {
   text-decoration: none;
 }
 
+.linkMap:hover {
+  color: black;
+}
+
 .linkMapHead {
   font-family: Arial;
   color: black;
